@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <div className="flex  justify-between items-center py-3">
-      <div className="flex relative justify-center   flex-col items-center">
+      <div className="flex  relative justify-center flex-col items-center">
         <img className="w-[2.8rem] h-[2.8rem]" src={logo} alt="" />
         <p className="text-[1rem] mt-[-1rem]">METRICKS</p>
       </div>
@@ -37,7 +37,7 @@ const Header = () => {
       ) : (
         <img
           onClick={setMenu}
-          className="w-10 h-10 cursor-pointer "
+          className="lmd:hidden w-10 h-10 cursor-pointer "
           src={menuIcon}
           alt=""
         />

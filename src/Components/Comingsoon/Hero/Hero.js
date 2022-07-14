@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className=" font-bold uppercase text-3xl">
           Something awesome is coming soon
         </h1>
-        <p className="mt-8">
+        <p className="mt-8 sm:text-[1.3rem]">
           Your all-in-one affiliate marketing tracking software track, automate
           and optimize your campaigns.
         </p>

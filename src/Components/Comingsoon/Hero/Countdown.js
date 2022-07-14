@@ -9,16 +9,16 @@ const Countdown = () => {
   ];
   const displayCountdown = countdownData.map((countType) => {
     return (
-      <div className="bg-white text-center mt-4 py-4 text-black rounded-lg ">
+      <li className="bg-white  mx-auto text-center lmd:p-6 sm:mt-6 mt-4 py-4 text-black rounded-lg ">
         <p>{countType.number}</p>
         <p>{countType.type}</p>
-      </div>
+      </li>
     );
   });
   return (
-    <div className="mt-8  lmd:flex max-w-[50%] mx-auto p-4 space-x-3 items-center justify-center">
+    <ul className="mt-8 sm:text-[1.3rem] md:max-w-[35%]  lmd:flex max-w-[50%] mx-auto p-4 space-x-3 items-center justify-center">
       {displayCountdown}
-    </div>
+    </ul>
   );
 };
 

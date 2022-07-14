@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="text-white max-w-[100vw] bg-cover bg-[url('Path1.svg')]">
-        <div className="max-w-[120vw] mx-auto">
+        <div className="max-w-[90%] mx-auto">
           <Routes>
             <Route path="/" element={<ComingSoon />} />
             <Route path="about" element={<AboutUs />} />
