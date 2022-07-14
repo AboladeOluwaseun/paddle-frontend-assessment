@@ -27,7 +27,7 @@ const SideMenu = ({ isSidebarOpened }) => {
             isSidebarOpened ? "translate-x-0" : "-translate-x-full"
           }`}
         >
-          <ul className="p-8 relative text-black top-20 left-16 text-[1.2rem] hover:border-b hover:border-Orange  font-semibold">
+          <ul className="p-8 relative text-black top-20 left-1 text-[1.2rem] hover:border-b hover:border-Orange  font-semibold">
             {navItems}
           </ul>
         </div>

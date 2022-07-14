@@ -12,6 +12,7 @@ const Footer = () => {
 
   return (
     <>
+      {/* <div className="absolute left-[50%] top-[100%] h-[10rem] w-[1rem] bg-transparent translate-x-[-50%] translate-y-[-50%] rounded-t-full rounded-r-[10px] rounded-b-none rounded-l-none "></div> */}
       <div className="mt-2 p-4 text-[0.6rem]">
         <div className=" p-2 flex space-x-2 items-center justify-center">
           {logoDisplay}
