@@ -6,9 +6,11 @@ import Footer from "../Components/Comingsoon/Footer/Footer";
 const ComingSoon = () => {
   return (
     <>
-      <Header></Header>
-      <Hero></Hero>
-      <Footer></Footer>
+      <div className="m-0">
+        <Header></Header>
+        <Hero></Hero>
+        <Footer></Footer>
+      </div>
     </>
   );
 };

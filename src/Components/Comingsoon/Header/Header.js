@@ -21,16 +21,16 @@ const Header = () => {
 
   return (
     <div className="flex  justify-between items-center py-3">
-      <div className="flex  relative justify-center flex-col items-center">
+      <div className="flex justify-center flex-col items-center">
         <img className="w-[2.8rem] h-[2.8rem]" src={logo} alt="" />
-        <p className="text-[1rem] mt-[-1rem]">METRICKS</p>
+        <p className="text-[1rem] ">METRICKS</p>
       </div>
       <Nav></Nav>
       {active && <SideMenu isSidebarOpened={isSidebarOpened}></SideMenu>}
       {active ? (
         <img
           onClick={setMenu}
-          className="w-8 h-8 z-[10] cursor-pointer lmd:hidden"
+          className=" w-8 h-8 z-[10] cursor-pointer lmd:hidden"
           src={cancel}
           alt=""
         />
